@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+ 
+  background-color: white;
+}
+
+input{
+  height: 25px;
+  margin-left: 75px;
+  border: none;
+  border-bottom: 1px double black;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  font-weight: bold;
+  background: transparent;
+  font-family: monospace;
+  box-shadow: 1px 0.1px 6px #ababab;
+  transition: 1s;
+  background: transparent;
+  color:#1e1e1f;
+  
+}
+input::placeholder{
+  text-align: center;
+  font-weight: bold;
+  color: #ababab;
+  
+}
+
+input:hover {
+  height: 30px;
+  width: 210px;
+ 
+}
+
+
+button{
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  font-weight: bolder;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+ 
+h1{
+  font-size: 25px;
+  margin: 25px 25px;
+  text-align: center;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color:#575757;
+font-weight: 350;
+font-family: 'Times New Roman', Times, serif;
+
+}
+img{
+  height: 50px;
+  width: 50px;
+  border: 3px double #5b29ff;
+  border-radius:50%;
+  box-shadow: 2px 2px 2px aqua;
+}
+h2{
+  font-size: 18.5px;
+  letter-spacing: 2.5px;
+  margin: -10px 65px;
+  margin-top: -45px;
+  border-bottom: 2px double #5b29ff;
+  border-right: 2px double #5b29ff;
+  border-radius: 6px;
+  box-shadow: 2px 2px aqua;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px #ababab;
+  font-weight: 250;
+}
+#wcc3{
+  color: dodgerblue;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 600;
+}
+button:hover{
+  background-color:#2e62ff;
+  color: aqua;
+  height: 45px;
+  width: 105px;
+}
