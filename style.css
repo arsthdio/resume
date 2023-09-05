@@ -99,3 +99,16 @@ button:hover{
   height: 45px;
   width: 105px;
 }
+
+ summary{
+  list-style: none;
+  font-size: 15px;
+  font-family: monospace;
+  letter-spacing: -0.5px;
+  
+}
+a{
+  text-decoration: none;
+  color: blue;
+  text-shadow: 1px 1px aqua;
+}
