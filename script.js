@@ -1,5 +1,8 @@
-//for Average-------------------------
 
+
+
+
+// for average
 function avg(){
 
 let matches = document.getElementById("matches").value
@@ -48,7 +51,7 @@ function bp(){
 
 // for Not Outs-----------------
 
-function no(){
+/*function no(){
   let inn = document.getElementById("matches").value
 
   let runs = document.getElementById("runs").value
@@ -56,9 +59,11 @@ function no(){
   let avg = document.getElementById("average").value
 
 let NO = Math.round(inn-(runs/avg))
+console.table([inn,runs,avg])
 
-  document.getElementById("pg").innerHTML= `[ ${NO} ] Not Outs`
-
+  document.getElementById("pg").innerHTML= "hello"
 }
+*/
+
 
 
