@@ -1,8 +1,3 @@
-
-
-
-
-// for average
 function avg(){
 
 let matches = document.getElementById("matches").value
@@ -11,14 +6,13 @@ let runs = document.getElementById("runs").value
 
 let nouts = document.getElementById("NO").value
 
-let avg = (runs/(matches-nouts))-0.01
+let avg = runs/(matches-nouts)
 
 let average = avg.toFixed(2)
 
 let oput =document.getElementById("pg").innerHTML= `Average is [ ${average} ]`
-}
 
-//for StrikeRate---------------
+}
 
 function Srate(){
  
@@ -34,8 +28,6 @@ function Srate(){
   
 }
 
-//for Balls Played---------------
-
 function bp(){
   let runs = document.getElementById("runs").value
     
@@ -48,22 +40,3 @@ function bp(){
   document.getElementById("pg").innerHTML= `[ ${bp} ] Balls Played`
 
 }
-
-// for Not Outs-----------------
-
-/*function no(){
-  let inn = document.getElementById("matches").value
-
-  let runs = document.getElementById("runs").value
-  
-  let avg = document.getElementById("average").value
-
-let NO = Math.round(inn-(runs/avg))
-console.table([inn,runs,avg])
-
-  document.getElementById("pg").innerHTML= "hello"
-}
-*/
-
-
-
