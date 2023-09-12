@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+      <!DOCTYPE html>
 <html>
 
 <head>
@@ -6,9 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,10 +20,14 @@
      </span>
        
     </div><br><br>
+  
  
-<input type="number" name="matches" id="matches" placeholder="Matches"><br><br>
+ 
+<input type="number" name="matches" id="matches" placeholder="Innings"><br><br>
 
 <input type="number" name="runs" id="runs" placeholder="Runs Scored"> <br><br>
+
+<input type="number" name="average" id="average" placeholder="Average"><br><br>
 
 
 <input type="number" name="skrikeRate" id="SR" placeholder="Strike Rate"><br><br>
@@ -35,24 +39,19 @@
 <input type="number" name="NO" id="NO" placeholder="Not Outs"><br><br>
 
 
+  
+
 <button onclick="avg()">Average</button>
 <button onclick="Srate()">Strike Rate</button>
 <button onclick="bp()">Balls</button>
-<button onclick="NO()">Not Outs</button>
+<button onclick="no()">Not Outs</button>
+<button onclick="reset()">Reset</button>
+
+ 
 
 <h1 id="pg"></h1>
 
-<p>
-  <details>
-  <summary>
-    Developer Contact {Click Here}
-  </summary>
-  <br>
-    <a href="https://instagram.com/ayushranjan_333?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram fa-xl" style="color: #6a00ff;"></i>  Ayush Ranjan</a> <i class="ri-verified-badge-fill" style="color:dodgerblue; font-size:20px;></i>
-                                                                                                                                                                     
-</details>
-</p>
-  
+
 
 <script src="script.js"></script>
 </body>
