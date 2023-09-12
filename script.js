@@ -10,7 +10,7 @@ let runs = document.getElementById("runs").value
 
 let nouts = document.getElementById("NO").value
 
-let avg = (runs/(matches-nouts))-0.01
+let avg = (runs/(matches-nouts))
 
 let average = avg.toFixed(2)
 
